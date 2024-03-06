@@ -4,7 +4,7 @@
 
 
 ## How to set up an Angular Project?
-I assume you have already seen the Angular project in https://github.com/MinyiZou/Projects_IN_Angular. If you haven't seen it, you can check it out. It's a good start to learn Angular and single page application which you can just easily copy and paste the code to your project. I will only show you how to implement the Angular project in the Ionic project in this repository.
+I assume you have already seen the Angular project in https://github.com/MinyiZou/Projects_IN_Angular. If you haven't seen it, you can check it out. It's a good start to learn Angular and single page application which you can just easily copy and paste the code to your project. I will only show you how to intergrate the exsiting Angular project in the Ionic project in this repository.
 
 
 ## How to set up an Ionic Project?
