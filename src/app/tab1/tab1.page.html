@@ -1,17 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Create New Appointment
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    
+        <ion-input [(ngModel)]="newTitle" placeholder="New Appointment Title" fill="outline"></ion-input>
+     
+        <ion-input fill="outline" class="form-control" type="date" [(ngModel)]="newDate" placeholder="New Appointment Date"></ion-input>
+   
+        <ion-button (click)="addAppointment()">Add</ion-button>
+
+
+    <ion-content color="light">
+      <ion-list [inset]="true" *ngFor="let appointment of appointments; index as i">
+        <ion-item>
+          <ion-label> {{appointment.title}} </ion-label>
+          <ion-label> {{appointment.date | date: 'yyyy-MM-dd'}} </ion-label>
+          <ion-button color="danger" (click)="deleteAppointment(i)">Delete</ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
+
