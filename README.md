@@ -1,6 +1,6 @@
 # Ionic & Angular & iOS
 
-| This repo uses the ionic build a cross-platform project, frontend framework uses Angular 17, iOS uses Swift 5.9.
+> This repo uses the ionic build a cross-platform project, frontend framework uses Angular 17, iOS uses Swift 5.9.
 
 ## How to set up an Ionic Project?
 - Install Node.js
@@ -66,14 +66,14 @@ In order to reduce my job to copy and paste the code, I will use `<app-cart-view
 
 ### Mock http request
 Here is the mock api which you can download mookoon and import this attached file to the mookoon. Then you can use the http request to get the data from the server. 
-[doc/Amazing Animal Paintings.json]()
+[Json file](doc/Amazing Animal Paintings.json)
 Or use the json to mock the data from the server.
 
 
 ## Screenshots
 - Tab1: Tab 1 use the local storage to store the appointment data. You can add, delete and edit the appointment. You can also see the appointment details by clicking the appointment.
-![doc/1.png]()  
+![](doc/1.png)  
 - Tab2: Tab 2 & 3 use the http request to get the data from the server. You can add the product to the cart and see the cart view in Tab3.
-![doc/2.png]()  
+![](doc/2.png)  
 - Tab3:
-![doc/3.png]()  
+![](doc/3.png)  
