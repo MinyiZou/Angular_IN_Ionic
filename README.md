@@ -2,6 +2,11 @@
 
 > This repo uses the ionic build a cross-platform project, frontend framework uses Angular 17, iOS uses Swift 5.9.
 
+
+## How to set up an Angular Project?
+I assume you have already seen the Angular project in https://github.com/MinyiZou/Projects_IN_Angular. If you haven't seen it, you can check it out. It's a good start to learn Angular and single page application which you can just easily copy and paste the code to your project. I will only show you how to implement the Angular project in the Ionic project in this repository.
+
+
 ## How to set up an Ionic Project?
 - Install Node.js
 - Install Ionic CLI
@@ -45,10 +50,6 @@ pod install
 ```
 
 Now you can see the most simpliest project in the ionic framework. You can start to develop your project with the Ionic CLI.
-
-## How to set up an Angular Project?
-I assume you have already seen the Angular project in https://github.com/MinyiZou/Projects_IN_Angular. If you haven't seen it, you can check it out. It's a good start to learn Angular and single page application which you can just easily copy and paste the code to your project. I will only show you how to implement the Angular project in the Ionic project in this repository.
-
 
 ## Change current Angular project to Ionic project
 - First, you need to create a new project in the Ionic CLI which I mentioned before, you can select black or tabs, it's up to you. But in here, I will use the tabs project.
